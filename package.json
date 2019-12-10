@@ -1,0 +1,29 @@
+{
+  "name": "darksky_weather_reader",
+  "version": "1.0.0",
+  "description": "Reads weather info from DarkSky API and writes it in an InfluxDB",
+  "main": "index.js",
+  "dependencies": {
+    "influx": "^5.5.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "unix-timestamp": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeSay/DarkSky_Weather_Reader.git"
+  },
+  "keywords": [
+    "darkSky"
+  ],
+  "author": "Michael Sayapin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MikeSay/DarkSky_Weather_Reader/issues"
+  },
+  "homepage": "https://github.com/MikeSay/DarkSky_Weather_Reader#readme"
+}
